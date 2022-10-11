@@ -116,7 +116,7 @@ def cal():
     nha_hang = []
     # test = firebase.get('/input/1/Review',2)
     # print(test)
-    for i in range(1, 5):
+    for i in range(1, 6):
         boo_val = query(i, "status")
         for x, y in boo_val.items():
             if y == True:
